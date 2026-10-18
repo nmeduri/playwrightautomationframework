@@ -20,7 +20,7 @@ export default defineConfig({
     baseURL: "https://demoqa.com/",
     // Optional: You can also specify an action timeout for clicks/typing
     actionTimeout: 15000,
-    headless: !!process.env.CI,
+    headless: true,
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
